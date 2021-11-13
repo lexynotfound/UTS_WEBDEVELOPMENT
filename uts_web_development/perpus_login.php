@@ -24,7 +24,7 @@
           </div>
           
           <div class="main-right">
-             
+            <form action="/submit_signup_data.php method="post">
              <div class="main-right-login">
                  
                    <div class="main-right-email">
@@ -46,7 +46,7 @@
                        </button>
                        
                    </div>
-                   
+                  </form> 
                    <div class="main-right-link">
                        
                        <a href="">Forgotten account?</a>
@@ -88,7 +88,7 @@
              <div class="modal-close">
                  X
              </div>
-             
+           <form action="/submit_signup_data.php method="post">  
              <div class="modal-signup-heading">
                  
                  <p class="modal-signup-name">Sign Up</p>
@@ -151,7 +151,7 @@
                  
                  <div class="modal-gender-name">
                      
-                     <label for="">Femal</label>
+                     <label for="">Female</label>
                      
                      <input type="radio">
                      
@@ -187,7 +187,7 @@
                   <button>Sign Up</button>
                   
               </div>
-              
+            </form>  
           </div>
            
        </div>
